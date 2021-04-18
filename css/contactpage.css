@@ -1,0 +1,41 @@
+.platforms{
+    margin-bottom: 50%;
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    width: 70%;
+    padding-left: 20%;
+
+}
+
+.eveything-about-me .paragraph{
+    margin:10px !important;
+}
+
+.platforms h4.p{
+    color:rgb(234, 15, 30);
+    margin: 2px;
+    font-size: 24px;
+    transition: transform 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: backwards;
+    font-family: var(--primary-font-family);
+    width:65%;
+    cursor:pointer;
+ 
+}
+
+
+
+
+.platforms h4.p:hover{
+  
+  transform: translateX(20%);
+  transition: transform 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  background-color: black;
+  color: white;
+}
+
+.platforms h4.p::selection{
+    background-color: black;
+
+}
