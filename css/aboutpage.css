@@ -67,3 +67,14 @@ body{
     width:  100%;
     height: 40%;
 }
+
+@media screen and (max-width:1200px) {
+ .eveything-about-me .paragraph{
+    font-size:2em;
+    width: 95%;
+
+}  
+.about-Main-headline{
+font-size: 1.5em;    
+}
+}
