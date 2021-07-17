@@ -1,5 +1,5 @@
 let helloHead = document.getElementById('HelloWorldText');
-let Iam = document.querySelector('.intro-headline')
+let Iam = document.querySelector('#iam')
 let divyanshu = document.querySelectorAll('p.intro-headline')[1];
 
 helloHead.addEventListener("mouseenter", e =>{
@@ -16,7 +16,7 @@ helloHead.addEventListener('mouseleave',e=>{
 
 
 Iam.addEventListener("mouseenter", e =>{
-    Iam.innerText= 'Projects';
+    Iam.innerText= 'Work';
     helloHead.style.color = 'var(--primary-color-red)';
     Iam.style.color='var(--primary-color-white)';
 });
