@@ -52,7 +52,7 @@ helloHead.addEventListener('click',()=>{
 
 
 Iam.addEventListener('click',()=>{
-    window.open('https://github.com/divyanshuParihar265','_blank')
+    window.open('https://github.com/divyanshu-parihar','_blank')
 })
 
 
